@@ -1,0 +1,107 @@
+.graph {
+  background-color: #f5f7f6;
+  width: 340px;
+  img {
+    padding-top: 60px;
+  }
+}
+
+.content {
+  width: 158px;
+  margin: 0 auto;
+  margin-top: -26px;
+  p {
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 600;
+    color: #555252;
+  }
+  span {
+    font-size: 12px;
+    color: rgb(154 157 161);
+  }
+}
+
+.form-bg {
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  margin: 80px auto;
+  background-color: rgb(218, 212, 212);
+}
+
+.container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  padding: 0px 90px 0px 60px;
+  height: 470px;
+}
+
+#form-inputs {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(165, 169, 173, 1);
+    margin-bottom: 4px;
+    margin-top: 10px;
+  }
+  input {
+    width: 190px;
+    padding: 2.5px;
+    border: 1px solid rgb(171, 167, 167);
+    border-radius: 2px;
+    &:focus {
+      background-color: rgb(215, 221, 225);
+      outline: 1px solid rgb(171, 167, 167);
+    }
+  }
+  span {
+    font-size: 12px;
+    color: rgba(217, 50, 50, 0.925);
+  }
+}
+
+#phoneNo {
+  width: 130px !important;
+}
+.checkbox {
+  margin-top: 3px;
+  input {
+    padding-top: 2px;
+  }
+  label {
+    font-size: 9px;
+    font-weight: 700;
+    color: #555252;
+  }
+}
+
+input[type='checkbox'] {
+  vertical-align: middle;
+  color: blue;
+}
+.btn {
+  cursor: pointer;
+  margin: 12px 0;
+  width: 150px;
+  padding: 6px;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: rgb(57, 140, 229);
+  border: none;
+  border-radius: 3px;
+}
+
+/************Media Query ****************/
+
+@media screen and (max-width: 500px) {
+  .form-bg {
+    margin: 100px auto;
+  }
+
+  .graph {
+    display: none;
+  }
+}

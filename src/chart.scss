@@ -1,0 +1,35 @@
+#barChart {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 50px auto;
+  background-color: #dfd3d3;
+  button {
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(33 102 175);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: none;
+  }
+}
+.header {
+  text-align: center;
+  font-size: 23px;
+  color: #e63333;
+  margin-top: 7px;
+  &::after {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 3px;
+    margin: 0 auto;
+    background: blue;
+  }
+}
